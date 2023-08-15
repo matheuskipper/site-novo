@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-1: #2b303a;
+    --color-2: #92DCE5;
+    --color-3: #F7F3F5;
+    --color-4: #D64933;
+    --color-5: #7C7C7C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--color-5);
+}
+
+header {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, var(--color-3), var(--color-2));
+    color: var(--color-1);
+}
+
+header > h1 {
+    font-family: 'Bebas Neue';
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-shadow: 2px 2px 0 white;
+}
+
+header > p {
+    font-family: 'Lexend';
+    font-size: 20px;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0 white;
+
+}
+
+nav > ul {
+    background-color: var(--color-2);
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    justify-content: center;
+}
+
+a {
+    color: var(--color-1);
+    font-family: 'Lexend';
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;   
+}
+
+a:hover {
+    background-color: var(--color-1);
+    color: var(--color-3);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: var(--color-1);
+    color: var(--color-3);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.432);
+}
+
+main h1 {
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    text-align: center;
+}
+
+main h2 {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    
+}
+
+main p {
+    font-family: 'Lexend';
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main img {
+    width: 100%;
+    
+}
+
+div.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#origem-logo {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#origem-logo > p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#evolucao-logo {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#evolucao-logo > p {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#evolucao-logo > h2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo-atual {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#logo-atual > p {
+    margin-top: 20px;
+}
+
+#steve-jobs {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#steve-jobs > h2 {
+    padding-top: 20px;
+}
+
+#steve-jobs > p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#curiosidades > p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#primeiro-logo-apple {
+    max-width:500px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+
+#primeiro-logo {
+    text-align: center;
+}
+
+#logo-atual-apple {
+    max-width:500px;
+    max-height:400px;
+    width: auto;
+    height: auto
+}
+
+#logo-atual-img {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    text-align: center;
+    font-family: "Lexend";
+    font-size: 0.8em;
+}
